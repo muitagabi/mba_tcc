@@ -76,8 +76,8 @@ The **Supervised SimCSE** model demonstrated the best performance, showing the h
 
 ```bash
 # Clone the repository
-git clone https://github.com/muitagabi/mba_tcc.git
-cd mba_tcc
+git clone https://github.com/muitagabi/usp_thesis_sustainability_ml_analysis.git
+cd usp_thesis_sustainability_ml_analysis
 
 # Install dependencies
 pip install pdfplumber spacy scikit-learn sentence-transformers tensorflow tensorflow-hub
@@ -88,7 +88,7 @@ python -m spacy download en_core_web_sm
 
 Open the Jupyter notebook in Google Colab:
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/muitagabi/mba_tcc/blob/main/usp_thesis_testing_code.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/muitagabi/usp_thesis_sustainability_ml_analysis/blob/main/usp_thesis_testing_code.ipynb)
 
 Or run locally:
 ```bash
@@ -111,7 +111,7 @@ Each section outputs cosine similarity percentages for all 17 SDGs.
 ## 📂 Repository Contents
 
 ```
-mba_tcc/
+usp_thesis_sustainability_ml_analysis/
 ├── usp_thesis_testing_code.ipynb    # Main analysis code
 ├── usp_thesis_final_version.pdf     # Complete thesis (Portuguese)
 ├── sgd_declaration.pdf              # UN SDG targets & indicators
